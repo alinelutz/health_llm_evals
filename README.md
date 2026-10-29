@@ -4,7 +4,7 @@
 
 ## Overview
 
-`health_llm_evals` simulates a clinical encounter between three LLM roles:
+`h``ealt``h``_``l``lm``_eval``s` simulates a clinical encounter between three LLM roles:
 
 - **Doctor**: the model being evaluated. It starts with a brief patient presentation, asks one question or orders one test per turn, and finishes with a diagnosis and a management plan.
 - **Gatekeeper (patient)**: holds the full case file and answers only what is specifically asked. It never reveals the diagnosis or volunteers extra findings. If information isn't in the file, it returns a plausible normal result.
@@ -28,7 +28,7 @@ The design is a simplified version of the sequential-diagnosis approach used in 
 - An Anthropic API key
 
 ```bash
-pip install anthropic
+pip install -r requirements.txt
 export ANTHROPIC_API_KEY="your-key-here"
 ```
 
@@ -36,7 +36,8 @@ export ANTHROPIC_API_KEY="your-key-here"
 
 ```
 health_llm_evals/
-├── diagnosis_eval.py
+├── health_llm_evals.py
+├── requirements.txt
 ├── cases.csv
 └── cases/
     ├── case1/
@@ -75,13 +76,13 @@ Each case has its own folder, named after its `id`, containing any number of `.t
 Run with the defaults:
 
 ```bash
-python diagnosis_eval.py
+python health_llm_evals.py
 ```
 
 Test a different model or case set:
 
 ```bash
-python diagnosis_eval.py --doctor claude-opus-4-1 --cases edge_cases.csv --out edge_results
+python health_llm_evals.py --doctor claude-opus-4-1 --cases edge_cases.csv --out edge_results
 ```
 
 | Option | Default | Description |
