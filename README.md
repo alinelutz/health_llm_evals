@@ -4,7 +4,7 @@
 
 ## Overview
 
-`h``ealt``h``_``l``lm``_eval``s` simulates a clinical encounter between three LLM roles:
+`health_llm_evals` simulates a clinical encounter between three LLM roles:
 
 - **Doctor**: the model being evaluated. It starts with a brief patient presentation, asks one question or orders one test per turn, and finishes with a diagnosis and a management plan.
 - **Gatekeeper (patient)**: holds the full case file and answers only what is specifically asked. It never reveals the diagnosis or volunteers extra findings. If information isn't in the file, it returns a plausible normal result.
