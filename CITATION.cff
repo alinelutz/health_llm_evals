@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Health LLM Evals"
+abstract: "An evaluation framework for assessing large language model responses to health-related questions."
+type: software
+authors:
+  - family-names: "YourLastName"
+    given-names: "YourFirstName"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/YOUR-USERNAME/health-llm-evals"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-29"
+keywords:
+  - llm
+  - llm-evaluation
+  - healthcare
+  - medical-ai
+  - ai-safety
