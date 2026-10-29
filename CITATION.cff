@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "Health LLM Evals"
-abstract: "An evaluation framework for assessing large language model responses to health-related questions."
+title: "Health LLM Evaluation"
+abstract: "An evaluation framework for assessing large language model responses in a simulated interaction with patients."
 type: software
 authors:
-  - family-names: "YourLastName"
-    given-names: "YourFirstName"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"
-repository-code: "https://github.com/YOUR-USERNAME/health-llm-evals"
+  - family-names: "Lutz"
+    given-names: "Aline"
+    # orcid: "https://orcid.org/0000-0002-6009-1069"
+repository-code: "https://github.com/alinelutz/health_llm_evals"
 license: MIT
 version: "1.0.0"
 date-released: "2026-10-29"
